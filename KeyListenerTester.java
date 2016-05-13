@@ -5,7 +5,7 @@ import javax.swing.JLabel;
 import javax.swing.JPanel;
 
 public class KeyListenerTester extends JFrame implements KeyListener {
-    // This just shows how the keylistener works we still have to utilize it in character moition 
+    // This just shows how the keylistener works we still have to utilize it in character motion 
     // But that should be pretty simple based on whats here(¯▼¯)
 
     //JLabel label;
@@ -24,7 +24,7 @@ public class KeyListenerTester extends JFrame implements KeyListener {
 
     @Override
     public void keyTyped(KeyEvent e) {
-
+        //Might not implement this into final code
         if (e.getKeyCode() == KeyEvent.VK_RIGHT) {
             System.out.println("Right key typed");
         }
